@@ -1,0 +1,44 @@
+body {
+    background-size: 2;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#tutorial {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#tutorial p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#tutorial ol {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.buttonplay {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.buttonplay:hover {
+    background-color: #0056b3;
+}
